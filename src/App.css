@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+/* Estiliza o container principal do formulário de login. */
+.login-container {
+  width: 100%; /* Ocupa 100% da largura. */
+  max-width: 400px; /* Largura máxima de 400px. */
+  margin: auto; /* Centraliza na página. */
+  padding: 20px; /* Espaçamento interno. */
+  text-align: center; /* Texto centralizado. */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura. */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estiliza os campos de input. */
+.input-field {
+  width: 100%; /* Ocupa 100% da largura disponível. */
+  padding: 10px; /* Espaçamento interno. */
+  margin: 10px 0; /* Margem superior e inferior. */
+  border-radius: 5px; /* Bordas arredondadas. */
+  border: 1px solid #ccc; /* Borda sólida com cor cinza claro. */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura. */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estiliza o botão de acesso. */
+.access-button {
+  width: 100%; /* Ocupa 100% da largura disponível. */
+  padding: 10px; /* Espaçamento interno. */
+  margin: 10px 0; /* Margem superior e inferior. */
+  background-color: #f58b12; /* Cor de fundo azul. */
+  color: white; /* Cor do texto branco. */
+  border: none; /* Sem borda. */
+  border-radius: 5px; /* Bordas arredondadas. */
+  cursor: pointer; /* Cursor do mouse como ponteiro. */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo. */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura. */
 }
